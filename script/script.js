@@ -25,6 +25,7 @@ function addValue(){
     // change the text area
 
     document.mycalculator.output.value = answer;
+    console.log(answer)
 }
 
 
@@ -54,6 +55,7 @@ function mulValue(){
    // change the text area
 
     document.mycalculator.output.value = answer;
+    console.log(answer)
 }
 
 function divValue(){
@@ -82,4 +84,5 @@ function divValue(){
    // change the text area
 
     document.mycalculator.output.value = answer;
+    console.log(answer)
 }
